@@ -1,4 +1,4 @@
-# <a href="https://b0n21en5.github.io/calculator/">Calculator</a>
+# <a href="https://shiny-longma-052832.netlify.app/">Calculator</a>
 
 
 # Tech Stack:
