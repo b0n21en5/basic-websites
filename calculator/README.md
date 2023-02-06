@@ -1,4 +1,4 @@
-# Calculator
+# <a href="https://b0n21en5.github.io/calculator/">Calculator</a>
 
 
 # Tech Stack:
@@ -8,9 +8,8 @@
 
 
 
-<img src="https://github.com/b0n21en5/calculator/blob/main/cal.png" />
+<img src="https://github.com/b0n21en5/web-development-projects/blob/main/calculator/assets/images/web.png" />
 
 
 
-### link of the site is below
-<a href="https://b0n21en5.github.io/calculator/">Calculator</a>
+
