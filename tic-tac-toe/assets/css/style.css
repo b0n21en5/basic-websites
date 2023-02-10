@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --orange:#22f0d8;
+    --winning-blocks:#2d414b;
+    --bg: linear-gradient(to bottom right, rgb(69, 209, 54), rgb(184, 184, 64));;
+}
+
+body{
+    color: var(--orange);
+    font-family: 'Finger Paint', cursive;
+}
+
+h1{
+    font-size: 54px;
+    text-transform: uppercase;
+}
+
+.container{
+    height: 100vh;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--bg);
+}
+
+
+#gameboard{
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--orange);
+    font-size: 120px;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+}
+
+.box:nth-child(3n){
+    border-right: none;
+}
+
+.box:nth-child(6) ~ .box{
+    border-bottom: none;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #333;
+    font-size: 18px;
+    transition: 200ms transform;
+    background: var(--orange);
+    border-color: var(--orange);
+}
+
+button:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+}
