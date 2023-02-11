@@ -1,4 +1,4 @@
-# world-clock
+# <a href="https://b0n21en5.github.io/world-clock/">World Clock</a>
 world-clock using bootstrap, html, css, js
 
 
@@ -15,4 +15,4 @@ world-clock using bootstrap, html, css, js
 
 
 
-### Click on <a href="https://b0n21en5.github.io/world-clock/">World-Clock</a> to see the site
+
