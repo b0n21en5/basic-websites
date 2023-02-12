@@ -1,4 +1,5 @@
 body{
+    color: aliceblue;
     margin: 0;
     margin-top: 60px;
     padding: 0;
@@ -11,14 +12,27 @@ body h1 {
 }
 
 
+.box {
+    margin: 7rem 20rem;
+    border: 1px solid #103222;
+    background: #02b762;
+    border-radius: .5rem;
+}
+
+
 
 .timer{
+    font-size: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 5px;
     padding: 40px 0;
+}
+
+.timer p{
+    font-size: 1rem;
 }
 
 
@@ -29,19 +43,20 @@ body h1 {
     justify-content: center;
     align-items: center;
     gap: 2.5rem;
+    padding-bottom: 2rem;
 }
 
 
 .buttons button{
     color: white;
-    font-size: 1rem;
+    font-size: 1.5rem;
     display: flex;
     align-items: center;
     gap: 5px;
     padding: 10px;
-    border: 1px solid black;
+    border: 0px solid white;
     border-radius: 4px;
-    box-shadow: 1px 1px 1px #000;
+    box-shadow: 1px 1px 1px #fff;
 }
 
 
@@ -51,21 +66,30 @@ body h1 {
 
 
 .buttons .btn-primary{
-    background-color: rgb(30, 114, 6);
+    background-color: rgb(53, 192, 14);
+}
+.buttons .btn-primary:hover{
+    background-color: rgb(36, 113, 14);
 }
 
 
 .buttons .btn-danger{
-    background-color: rgb(19, 60, 148);
+    background-color: rgb(28, 87, 215);
+}
+.buttons .btn-danger:hover{
+    background-color: rgb(19, 56, 134);
 }
 
 
 .buttons .btn-secondary{
-    background-color: rgb(148, 30, 28);
+    background-color: rgb(201, 34, 31);
+}
+.buttons .btn-secondary:hover{
+    background-color: rgb(128, 20, 18);
 }
 
 
 .buttons img{
-    width: 19px;
+    width: 29px;
     /* height: 25px; */
 }
