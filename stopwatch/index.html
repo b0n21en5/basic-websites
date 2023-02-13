@@ -4,34 +4,38 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="icon" href="assets/images/favicon.png" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/media-queries.css">
     <title>Stopwatch</title>
   </head>
   <body>
+    
     <div class="box">
-      <h1>Welcome to Stopwatch Application</h1>
+      <h1>Welcome to Stopwatch!</h1>
 
+      <div class="image"><img src="assets/images/stopwatch.png" alt="stopwatch" style="width: 200px;"></div>
       <div class="timer">
-        <span class="hr">00</span>
+        <span id="hr">00</span>
         <p>Hr</p>
-        <span class="min">00</span>
+        <span id="min">00</span>
         <p>Min</p>
-        <span class="sec">00</span>
+        <span id="sec">00</span>
         <p>Sec</p>
-        <span class="centi">00</span>
+        <span id="centi">00</span>
       </div>
 
-      <div class="buttons">
-        <button class="btn-primary">
-          <img src="assets/images/start.png" alt="start" style="width: 35px" />
-          Start
+
+      <!-- button section -->
+      <div class="buttons" >
+        <button id="btn-start">
+          <img src="assets/images/start.png" alt="start" style="width: 35px" draggable="false"/>Start
         </button>
-        <button class="btn-danger">
-          <img src="assets/images/pause.png" alt="stop" /> Stop
+        <button id="btn-stop">
+          <img src="assets/images/pause.png" alt="stop" draggable="false"/>&nbspStop
         </button>
-        <button class="btn-secondary">
-          <img src="assets/images/reset.png" alt="reset" /> Reset
+        <button id="btn-reset">
+          <img src="assets/images/reset.png" alt="reset" draggable="false"/>Reset
         </button>
       </div>
     </div>

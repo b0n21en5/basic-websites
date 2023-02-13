@@ -1,0 +1,55 @@
+@media screen and (max-width:1122px) {
+
+    .box{
+        margin: 3rem 10rem;
+    }
+
+    .buttons button{
+        font-size: 1rem;
+    }
+}
+
+
+
+@media screen and (max-width:800px) {
+    
+    body {
+        background: #021f12;
+    }
+
+    .box{
+        border: none;
+        margin: 1rem 5rem;
+    }
+}
+
+
+@media screen and (max-width:422px) {
+
+    body{
+        margin: 0;
+    }
+
+    .box{
+        margin: .5rem;
+    }
+
+    .timer{
+        font-size: 2rem;
+    }
+
+    .timer p {
+        font-size: 1rem;
+    }
+
+
+    .buttons{
+        gap: 1.5rem;
+        flex-direction: column;
+    }
+
+    .buttons button {
+        font-size: 1.5rem;
+        padding: .6rem 5rem;
+    }
+}
