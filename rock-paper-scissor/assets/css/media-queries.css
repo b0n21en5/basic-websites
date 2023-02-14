@@ -1,0 +1,123 @@
+@media screen and (max-width:1040px) {
+    header{
+        padding: 0 16rem;
+    }
+
+    h1{
+        font-size: 2.5rem;
+        
+    }
+
+    .choices{
+        font-size: 1.4rem;
+        padding: 1.3rem 2rem;
+    }
+
+    #scores{
+        font-size: 2rem;
+    }
+
+
+    #results{
+        font-size: 1.5rem;
+        margin: 3.3rem 3.5rem;
+    }
+
+    
+}
+
+
+@media screen and (max-width:995px) {
+    h1{
+        font-size: 2rem;
+    }
+
+    .choices{
+        font-size: 1.3rem;
+    }
+
+    #scores{
+        font-size: 1.8rem;
+        gap: 6rem;
+    }
+
+    .buttons{
+        gap: 4.2rem;
+    }
+
+
+    #results{
+        /* font-size: 1.2rem; */
+        margin: 3.1rem 3.4rem;
+    }
+}
+
+
+@media screen and (max-width:420px) {
+
+    header{
+        padding: 0 ;
+        margin-top: 1rem;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+    .main{
+        display: grid;
+    }
+
+
+    .choices{
+        padding: 4px 1.5rem;
+        grid-row:1;
+        grid-column: 1;
+    }
+
+    .choice-box{
+        margin: 0 .5rem;
+        padding: .5rem;
+    }
+
+    .choice-box button {
+        font-size: x-large;
+        width: 80%;
+        margin-top: 1rem;
+        margin-left: 10%;
+    }
+
+    #play-area{
+        grid-row: 2;
+    }
+
+    #scores{
+        padding: .9rem 0;
+        font-size: 1.3rem;
+        gap: 2rem;
+        justify-content: space-evenly;
+    }
+
+    #scores .points p{
+        margin: 0;
+    }
+
+    .buttons{
+        padding: 0;
+        gap: 2rem;
+        justify-content: center;
+    }
+
+    .buttons img {
+        width: 3rem;
+    }
+
+    #results{
+        font-size: 1.3rem;
+        grid-row: 1;
+        grid-column: 1;
+        margin-top: .7rem;
+        margin-left: 70%;
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/media-queries.css">
+    <link rel="icon" href="assets/images/favicon.png" />
+    <title>Rock Paper Scissor</title>
+  </head>
+  <body>
+    <header>
+      <h1>Rock Paper Scissor</h1>
+    </header>
+
+    <section class="main">
+
+      <!-- choice section starts -->
+      <aside class="choices">
+          <div class="choice-box">
+            You Choice:
+            <div id="player">none</div>
+          </div>
+          <div class="choice-box">
+            Computer Choice:
+            <div id="cpu">none</div>
+          </div>
+
+          <div class="choice-box">
+            <button onclick="startOver()">Start again</button>
+          </div>
+          
+      </aside>
+
+      <!-- choice section ends -->
+      
+      <section id="play-area">
+
+        <!-- score section starts -->
+        <div id="scores">
+          <span class="points">
+            <p>Player</p>
+            <div id="playerPoint">0</div>
+          </span>
+
+          <span class="points">
+            <p>Computer</p>
+            <div id="cpuPoint">0</div>
+          </span>
+        </div>
+
+        <!-- score section ends -->
+
+        <!-- button section starts -->
+        <div class="buttons">
+          <div class="btn">
+            <img src="assets/images/rock.png" alt="rock" id="rock" />
+            <button onclick="game('rock')">Rock</button>
+          </div>
+
+          <div class="btn">
+            <img src="assets/images/paper.png" alt="paper" id="paper" />
+            <button onclick="game('paper')">Paper</button>
+          </div>
+
+          <div class="btn">
+            <img src="assets/images/scissor.jpg" alt="scissor" id="scissor" />
+            <button onclick="game('scissor')">Scissor</button>
+          </div>
+        </div>
+
+        <!-- button section ends -->
+
+      </section>
+
+      <!-- results section starts -->
+      <aside id="results">
+        Winner: <span id="winner">not yet</span>
+        Round Left: <div id="round-left" >10</div>
+      </aside>
+
+      <!-- results section ends -->
+      
+    </section>
+
+    <script type="text/javascript" src="assets/js/script.js"></script>
+  </body>
+</html>
