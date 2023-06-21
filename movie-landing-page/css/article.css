@@ -1,0 +1,27 @@
+article {
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  list-style: none;
+}
+
+article h2 {
+  font-size: larger;
+  margin-bottom: 10px;
+}
+
+article img {
+  width: 80px;
+  aspect-ratio: 0.66;
+  border-radius: 3px;
+}
+
+article ul {
+  overflow: hidden;
+}

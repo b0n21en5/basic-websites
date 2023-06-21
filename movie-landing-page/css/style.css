@@ -1,0 +1,18 @@
+@import url(article.css);
+@import url(aside.css);
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: gainsboro;
+  font-size: large;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  padding: 15px 30px;
+}

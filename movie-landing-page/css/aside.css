@@ -1,0 +1,23 @@
+aside {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+form {
+  width: 270px;
+  padding: 0.75rem;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+}
+#search_bar {
+  margin: 5px 0;
+  width: 100%;
+}
+
+button {
+  display: inline-block;
+}
+
+.sort_box {
+}

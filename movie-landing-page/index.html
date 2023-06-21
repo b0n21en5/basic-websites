@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="module" src="main.js"></script>
+    <title>Studio Ghibli</title>
+  </head>
+  <body>
+    <section>
+      <aside>
+        <form class="search_box">
+          <legend>Search</legend>
+          <input type="text" id="search_bar" />
+          <button id="search_btn">Search</button>
+          <button id="clear_btn">Clear</button>
+        </form>
+        <div class="sort"></div>
+        <div class="filter"></div>
+        <div class="display"></div>
+
+        <form class="sort_box">
+          <legend>Sort</legend>
+          <select name="" id="sort_option">
+            <option value="titleAsc">Title ascending</option>
+            <option value="titleDes">Title descending</option>
+            <option value="yearAsc">Year ascending</option>
+            <option value="yearDes">Year descending</option>
+          </select>
+        </form>
+
+        <div class="filter"></div>
+
+        <form class="display">
+          <legend>Display</legend>
+          <input type="radio" name="display_typ" id="grid" />
+          <label for="grid">Grid</label>
+          <input type="radio" name="display_typ" id="list" />
+          <label for="list">List</label>
+        </form>
+      </aside>
+      <main></main>
+    </section>
+  </body>
+</html>
