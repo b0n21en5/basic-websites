@@ -14,7 +14,7 @@ export default class Movie {
     this.#title = data.title;
     this.#producer = data.producer;
     this.#director = data.director;
-    this.#year = data.release_year;
+    this.#year = data.release_date;
     this.#image = data.image;
   }
 
@@ -29,9 +29,9 @@ export default class Movie {
         <img src=${this.#image} alt="movie banner"/>
         <ul>
             <li><h2>${this.#title}</h2></li>
-            <li><span>Year released: ${this.#year}</span></li>
-            <li><span>Producer: ${this.#producer}</span></li>
-            <li<span>Director: ${this.#director}</span>></li>
+            <li><span>Year released:</span> ${this.#year}</li>
+            <li><span>Producer:</span> ${this.#producer}</li>
+            <li><span>Director:</span> ${this.#director}</li>
         </ul>
         `;
     return articleEl;

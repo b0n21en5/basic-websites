@@ -1,0 +1,10 @@
+html,
+h2,
+li,
+ul,
+span {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}

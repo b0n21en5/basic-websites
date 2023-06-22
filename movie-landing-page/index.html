@@ -8,39 +8,38 @@
     <title>Studio Ghibli</title>
   </head>
   <body>
-    <section>
-      <aside>
-        <form class="search_box">
-          <legend>Search</legend>
-          <input type="text" id="search_bar" />
-          <button id="search_btn">Search</button>
-          <button id="clear_btn">Clear</button>
-        </form>
-        <div class="sort"></div>
-        <div class="filter"></div>
-        <div class="display"></div>
+    <aside>
+      <form id="search">
+        <legend>Search</legend>
+        <input type="text" id="search_bar" />
+        <button type="submit">Search</button>
+        <button type="reset">Clear</button>
+      </form>
+      <div class="sort"></div>
+      <div class="filter"></div>
+      <div class="display"></div>
 
-        <form class="sort_box">
-          <legend>Sort</legend>
-          <select name="" id="sort_option">
-            <option value="titleAsc">Title ascending</option>
-            <option value="titleDes">Title descending</option>
-            <option value="yearAsc">Year ascending</option>
-            <option value="yearDes">Year descending</option>
-          </select>
-        </form>
+      <form id="sort">
+        <legend>Sort</legend>
+        <select name="sort">
+          <option value="titleAsc">Title ascending</option>
+          <option value="titleDes">Title descending</option>
+          <option value="yearAsc">Year ascending</option>
+          <option value="yearDes">Year descending</option>
+        </select>
+      </form>
 
-        <div class="filter"></div>
+      <form id="filter"></form>
 
-        <form class="display">
-          <legend>Display</legend>
-          <input type="radio" name="display_typ" id="grid" />
-          <label for="grid">Grid</label>
-          <input type="radio" name="display_typ" id="list" />
-          <label for="list">List</label>
-        </form>
-      </aside>
-      <main></main>
-    </section>
+      <form id="display">
+        <legend>Display</legend>
+        <label
+          ><input type="radio" name="display" value="grid" checked />Grid</label
+        >
+
+        <label><input type="radio" name="display" value="list" />List</label>
+      </form>
+    </aside>
+    <main></main>
   </body>
 </html>
