@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="dashboard - admin panel" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Admin - Dashboard</title>
+  </head>
+  <body>
+    <aside>
+      <div class="top">
+        <a href="/"><span class="logo">admin</span></a>
+      </div>
+      <hr />
+      <div class="center">
+        <ul>
+          <p>MAIN</p>
+          <li>
+            <a href="#"
+              ><i class="fa-sharp fa-solid fa-table-columns fa-sm"></i>
+              <span>Dashboard</span></a
+            >
+          </li>
+          <p>LISTS</p>
+          <li>
+            <a href="#"
+              ><i class="fa-regular fa-user fa-xs"></i><span>Users</span></a
+            >
+            <a href="#"
+              ><i class="fa-solid fa-shop fa-xs"></i><span>Hotels</span></a
+            >
+            <a href="#"
+              ><i class="fa-regular fa-credit-card fa-sm"></i
+              ><span>Rooms</span></a
+            >
+            <a href="#"
+              ><i class="fa-solid fa-truck fa-sm"></i><span>Delivery</span></a
+            >
+          </li>
+          <p>USEFUL</p>
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-chart-column fa-sm"></i
+              ><span>Stats</span></a
+            >
+            <a href="#"
+              ><i class="fa-sharp fa-regular fa-bell fa-sm"></i
+              ><span>Notifications</span></a
+            >
+          </li>
+          <p>SERVICE</p>
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-cloud fa-sm"></i
+              ><span>System Health</span></a
+            >
+            <a href="#"
+              ><i class="fa-solid fa-sd-card fa-sm"></i><span>Logs</span></a
+            >
+            <a href="#"
+              ><i class="fa-solid fa-gear fa-sm"></i><span>Settings</span></a
+            >
+          </li>
+          <p>USER</p>
+          <li>
+            <a href="#"
+              ><i class="fa-regular fa-id-badge"></i><span>Profile</span></a
+            >
+            <a href="#"
+              ><i class="fa-solid fa-arrow-right-from-bracket fa-sm"></i
+              ><span>Logout</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="bottom">
+        <div class="color-option white"></div>
+        <div class="color-option"></div>
+      </div>
+    </aside>
+    <main>
+      <nav>
+        <div class="search-bar">
+          <input type="text" placeholder="Search..." /><img
+            src="/assets/search.svg"
+            alt="search icon"
+          />
+        </div>
+        <div class="wrapper">
+          <div class="nav-item">
+            <i class="fa-solid fa-globe" style="margin-right: 3px;"></i
+            >English
+          </div>
+          <div class="nav-item">
+            <i class="fa-regular fa-sun"></i></i>
+          </div>
+          <div class="nav-item">
+            <i class="fa-sharp fa-solid fa-expand"></i>
+          </div>
+          <div class="nav-item">
+            <i class="fa-sharp fa-regular fa-bell"></i>
+          </div>
+          <div class="nav-item">
+            <i class="fa-regular fa-message" style="color: #0f0f0f"></i>
+          </div>
+          <div class="nav-item"><i class="fa-solid fa-list-ul"></i></div>
+          <div class="nav-item">
+            <img
+              src="https://images.pexels.com/photos/941693/pexels-photo-941693.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+              alt="avatar"
+              class="avatar"
+            />
+          </div>
+          </div>
+      </nav>
+
+      <section>
+        <!-- cards -->
+        <article></article>
+
+        <!-- revenue section -->
+        <div class="revenue">
+          <div class="total">
+            <h1>Total Revenue</h1>
+            <div class="total-stats">
+              <div class="score"></div>
+              <h1>Total sales made today</h1>
+              <span>420</span>
+              <p>Previous transactions processing. Last payments may not be included.</p>
+          </div>
+          </div>
+          <div class="six-months"><h1>Last 6 Months (Revenue)</h1></div>
+        </div>
+
+        <!-- transactions section -->
+        <div id="latest-trans">
+          <h1>Latest Transactions</h1>
+        </div>
+      </section>
+
+    </main>
+
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
